@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 
-function Counter() {
+function Counter() 
+{
   const [count, setCount] = useState(0);
 
-  function increment() {
+  function increment() 
+  {
     setCount(count + 1);
   }
 
